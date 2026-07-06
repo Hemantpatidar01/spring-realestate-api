@@ -1,7 +1,7 @@
 {
-  "name": "Hemant Patidar - Portfolio",
-  "short_name": "HP Portfolio",
-  "description": "Java Full Stack Developer Portfolio",
+  "name": "Hemant Patidar Portfolio",
+  "short_name": "Hemant Patidar",
+  "description": "Hemant Patidar - Java Full Stack Developer Portfolio",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#050816",

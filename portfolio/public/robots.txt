@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://hemantpatidar.dev/sitemap.xml
+Sitemap: https://hemant-patidar-portfolio.vercel.app/sitemap.xml
