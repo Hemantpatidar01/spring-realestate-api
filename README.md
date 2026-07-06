@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 <a name="readme-top"></a>
 
@@ -183,3 +184,7 @@ list of resources I found helpful and would like to give credit to.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+=======
+# spring-realestate-api
+Spring Boot based Real Estate API project with user authentication, role-based access, property management, and MySQL database integration.
+>>>>>>> e124b39470dc643ce6c03c56622349cba0a66526
