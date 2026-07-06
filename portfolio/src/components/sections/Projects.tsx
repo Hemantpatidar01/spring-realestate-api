@@ -52,7 +52,7 @@ export default function Projects() {
                     <h3 className="heading-font text-2xl font-bold text-white">{project.title}</h3>
                     <p className="text-slate-400 mt-1">{project.subtitle}</p>
                   </div>
-                  <div className="absolute inset-0 bg-[url('/grid-pattern.svg')] opacity-10" />
+                  <div className="absolute inset-0 grid-bg opacity-10" />
                 </div>
 
                 <div className="p-6 md:p-8">

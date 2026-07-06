@@ -7,9 +7,6 @@ const nextConfig: NextConfig = {
   reactStrictMode: true,
   poweredByHeader: false,
   compress: true,
-  turbopack: {
-    root: process.cwd(),
-  },
   images: {
     unoptimized: isGitHubPages,
     formats: ["image/avif", "image/webp"],
