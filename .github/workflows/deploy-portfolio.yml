@@ -37,6 +37,8 @@ jobs:
 
       - name: Build portfolio
         working-directory: portfolio
+        env:
+          GITHUB_PAGES: "true"
         run: npm run build
 
       - name: Upload artifact

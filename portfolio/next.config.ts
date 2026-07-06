@@ -1,7 +1,9 @@
 import type { NextConfig } from "next";
 
+const isGitHubPages = process.env.GITHUB_PAGES === "true";
+
 const nextConfig: NextConfig = {
-  output: "export",
+  ...(isGitHubPages ? { output: "export" as const } : {}),
   reactStrictMode: true,
   poweredByHeader: false,
   compress: true,
@@ -9,7 +11,7 @@ const nextConfig: NextConfig = {
     root: process.cwd(),
   },
   images: {
-    unoptimized: true,
+    unoptimized: isGitHubPages,
     formats: ["image/avif", "image/webp"],
   },
 };
