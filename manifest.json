@@ -1,0 +1,17 @@
+{
+  "name": "Hemant Patidar - Portfolio",
+  "short_name": "HP Portfolio",
+  "description": "Java Full Stack Developer Portfolio",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#050816",
+  "theme_color": "#050816",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "48x48",
+      "type": "image/x-icon"
+    }
+  ]
+}
